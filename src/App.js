@@ -2,19 +2,7 @@ import { App as SendBirdApp } from "sendbird-uikit";
 import "sendbird-uikit/dist/index.css";
 import "./App.css";
 
-const colorSet = {
-  "sendbird-dark-primary-500": "salmon",
-  "sendbird-dark-primary-400": "salmon",
-  "sendbird-dark-primary-300": "salmon",
-  "sendbird-dark-primary-200": "salmon",
-  "sendbird-dark-primary-100": "salmon",
-
-  "sendbird-light-primary-500": "salmon",
-  "sendbird-light-primary-400": "salmon",
-  "sendbird-light-primary-300": "salmon",
-  "sendbird-light-primary-200": "salmon",
-  "sendbird-light-primary-100": "salmon",
-};
+import { colorSet } from "./pallette/colorThemes";
 
 function App() {
   return (
